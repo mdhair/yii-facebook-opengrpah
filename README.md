@@ -3,9 +3,10 @@ yii-facebook-opengrpah
 
 It includes the method for extending the short lived token to 60 days valid token.
 
-example to extend toekn
-       try{
-               $facebook_uid = $facebook->getUser();
+example to extend toekn<br/> <br/> 
+           
+           try{
+                $facebook_uid = $facebook->getUser();
                 $facebook->setExtendedAccessToken();
                 $accessToken = $facebook->getAccessToken();
                 $fbuser = $facebook->api('/me');
